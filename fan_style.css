@@ -2,11 +2,11 @@
 /* Importar la fuente externa local */
 @font-face {
 	font-family: "Phasmo font";
-	src: url("C:/Users/gabri/Desktop/Mis aplicaciones/Pagina de phasmophobia/Fuentes/Phasmo-Font.ttf");
+	src: url("Fuentes/Phasmo-Font.ttf");
 }
 
 body {
-	background-image: url(fan_img/Fondo.png);
+	background-image: url(Fantasmas/fan_img/Fondo.png);
 }
 
 #fan_tipos {
