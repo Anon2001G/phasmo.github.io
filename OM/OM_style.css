@@ -1,0 +1,54 @@
+@font-face {
+	font-family: "Phasmo font";
+	src: url("C:/Users/gabri/Desktop/Mis aplicaciones/Pagina de phasmophobia/Fuentes/Phasmo-Font.ttf");
+}
+
+body {
+	background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(OM_img/Fondo.png);
+	background-size: cover;
+}
+
+#fondo2 {
+	margin: 20px;
+	margin-bottom: 0px;
+	background: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72));
+	padding: 20px;
+	padding-bottom: 0px
+}
+
+.titulo {
+	font-family: 'Gluten', cursive;
+	font-size: 40px;
+	text-decoration: underline;
+	position: absolute;
+	color: white;
+	margin-left: 180px;
+	margin-bottom: 0px;
+	margin-top: 2px;
+}
+
+.imagen {
+	width: 110px;
+}
+
+.descripcion {
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	margin-top: 48px;
+	margin-left: 180px;
+	margin-bottom: 0px;
+	margin-right: 128px;
+}
+
+#oraciones:visited, #oraciones:link {
+	color: #2EC8C8;
+}
+
+#oraciones:hover {
+	color: yellow;
+}
+
+#oracines:active {
+	color: red;
+}

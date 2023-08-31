@@ -1,0 +1,77 @@
+
+/* Importar la fuente externa local */
+@font-face {
+	font-family: "Phasmo font";
+	src: url("Fuentes/Phasmo-Font.ttf");
+}
+
+/* El fondo de la página web principal (una imagen) */
+body {
+	background: linear-gradient(rgba(5, 7, 12, 0.42), rgba(5, 7, 12, 0.42)), url(img/Asilo.png), 100%, no-repeat;
+	background-size: cover;
+	background-position: top;
+	margin: 0;
+}
+
+/* El título ("El salón del Phasmo") de la página web principal */
+#titulo {
+	font-family: 'Black Ops One', cursive;
+	font-size: 90px;
+	text-align: center;
+	background: linear-gradient(red, yellow 32%, yellow 68%, red);
+	margin: 400px;
+	margin-top: 40px;
+	margin-bottom: 260px;
+}
+
+/* El botón de entrar al menú de la página web */
+#entrar {
+	background-size: 100px;
+	font-family: "Phasmo font", sans-serif;
+	font-size: 100px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 3px 5px black
+}
+
+#entrar:link, #entrar:visited {
+	color: #2EC8C8;
+}
+
+#entrar:hover {
+	color: yellow;
+}
+
+#entrar:active {
+	color: red;
+}
+
+#pie {
+	background: black;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 10%;
+	
+}
+
+#redes {
+	font-size: 20px;
+	text-align: center;
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 32px;
+	text-decoration: none;
+}
+
+#redes:link, #redes:visited {
+	color: #FFFFFF;
+}
+
+#redes:hover {
+	color: red;
+}
+
+#redes:active {
+	color: red;
+}

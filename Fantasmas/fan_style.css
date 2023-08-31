@@ -1,0 +1,47 @@
+
+/* Importar la fuente externa local */
+@font-face {
+	font-family: "Phasmo font";
+	src: url("C:/Users/gabri/Desktop/Mis aplicaciones/Pagina de phasmophobia/Fuentes/Phasmo-Font.ttf");
+}
+
+body {
+	background-image: url(fan_img/Fondo.png);
+}
+
+#fan_tipos {
+	text-align: center;
+	margin-top: 0px;
+}
+
+.fantasma {
+	font-size: 60px;
+	font-family: "Phasmo font", sans-serif;
+	color: white;
+	margin-top: 128px;
+	margin-bottom: 0px;
+	margin-left: 30px;
+}
+
+.descripcion {
+	font-size: 18px;
+	font-family: sans-serif;
+	color: white;
+	margin-left: 30px;
+
+}
+
+.enlace:link, .enlace:visited {
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #2EC8C8;
+	margin-left: 30px;
+}
+
+.enlace:hover {
+	color: yellow;
+}
+
+.enlace:active {
+	color: red;
+}
